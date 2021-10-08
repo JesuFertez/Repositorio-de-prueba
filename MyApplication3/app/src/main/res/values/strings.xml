@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Calculadora</string>
-    <string name="ingrese_valores">Ingrese valores ej: 1,2,3,4</string>
-    <string name="operacion_sumar">Sumar</string>
-    <string name="tv_resultado">TextView</string>
-</resources>

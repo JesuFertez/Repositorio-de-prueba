@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graf"
+    app:startDestination="@id/welcomFragment">
+
+    <fragment
+        android:id="@+id/welcomFragment"
+        android:name="com.example.usodefragments.WelcomFragment"
+        android:label="fragment_welcom"
+        tools:layout="@layout/fragment_welcom" >
+        <action
+            android:id="@+id/action_welcomFragment_to_triviaFragment"
+            app:destination="@id/triviaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/triviaFragment"
+        android:name="com.example.usodefragments.TriviaFragment"
+        android:label="fragment_trivia"
+        tools:layout="@layout/fragment_trivia" >
+        <action
+            android:id="@+id/action_triviaFragment_to_winnerFragment"
+            app:destination="@id/winnerFragment" />
+        <action
+            android:id="@+id/action_triviaFragment_to_loserFragment"
+            app:destination="@id/loserFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/winnerFragment"
+        android:name="com.example.usodefragments.WinnerFragment"
+        android:label="fragment_winner"
+        tools:layout="@layout/fragment_winner" >
+        <action
+            android:id="@+id/action_winnerFragment_to_welcomFragment"
+            app:destination="@id/welcomFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loserFragment"
+        android:name="com.example.usodefragments.LoserFragment"
+        android:label="fragment_loser"
+        tools:layout="@layout/fragment_loser" >
+        <action
+            android:id="@+id/action_loserFragment_to_welcomFragment"
+            app:destination="@id/welcomFragment" />
+    </fragment>
+</navigation>

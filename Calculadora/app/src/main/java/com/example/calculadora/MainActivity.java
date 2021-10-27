@@ -28,15 +28,16 @@ public class MainActivity extends AppCompatActivity {
         btnSumar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                sumarValores(); //llamada al método
+
+                sumarValores();
             }
         });
     }
 
     private void initWidgets() {
+
         etIngresoValor = findViewById(R.id.tv_entrada);
         btnSumar = findViewById(R.id.button);
-
         tvResult = findViewById(R.id.tv_res);
     }
 

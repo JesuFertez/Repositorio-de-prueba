@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">welcome</string>
+    <string name="write_name">name</string>
+    <string name="start">start</string>
+    <string name="facebook_alternativa">Pertenece a Facebook</string>
+    <string name="twiter_alternative">Pertenece a Twitter</string>
+    <string name="whatsapp_alternative">Pertenece a Whatsapp</string>
+    <string name="instagram_alternative">Pertenece a Instagram</string>
+    <string name="tv_question1">¿A que logo pertenece la imagen?</string>
+    <string name="win_message">¡Ganaste!</string>
+    <string name="btn_play_again">Juega de nuevo</string>
+    <string name="btn_send">Enviar</string>
+    <string name="tv_you_louse">Perdiste</string>
+    <string name="btn_try_again">Intentalo de nuevo</string>
+</resources>
